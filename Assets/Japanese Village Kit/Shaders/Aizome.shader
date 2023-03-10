@@ -32,6 +32,7 @@ Shader "Japanese/Aizome"
 		Tags{ "RenderType" = "Opaque"  "Queue" = "Geometry+0" }
 		Cull Off
 		CGPROGRAM
+		#include "UnityStandardUtils.cginc" 
 		#pragma target 3.0
 		#pragma shader_feature_local _INVERTSIGN1_ON
 		#pragma shader_feature_local _INVERTSIGN2_ON
@@ -115,7 +116,7 @@ Shader "Japanese/Aizome"
 		ENDCG
 	}
 	Fallback "Diffuse"
-	CustomEditor "ASEMaterialInspector"
+	//CustomEditor "ASEMaterialInspector"
 }
 /*ASEBEGIN
 Version=19105

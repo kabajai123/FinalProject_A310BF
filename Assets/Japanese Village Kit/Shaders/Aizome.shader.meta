@@ -2,8 +2,17 @@ fileFormatVersion: 2
 guid: d8ad184160d6bf844a79b001042bf260
 ShaderImporter:
   externalObjects: {}
-  defaultTextures: []
+  defaultTextures:
+  - _Albedo: {instanceID: 0}
+  - _Normal: {instanceID: 0}
+  - _Mask: {instanceID: 0}
+  - _ColorMask: {instanceID: 0}
+  - _Sign1: {instanceID: 0}
+  - _Sing2: {instanceID: 0}
+  - _Sing3: {instanceID: 0}
+  - _texcoord: {instanceID: 0}
   nonModifiableTextures: []
+  preprocessorOverride: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
