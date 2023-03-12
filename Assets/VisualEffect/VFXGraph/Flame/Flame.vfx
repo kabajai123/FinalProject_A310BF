@@ -3274,7 +3274,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615242}
   m_ExposedName: FlameSize
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 1
   m_Category: Flame
   m_Min:
     m_Type:
@@ -3391,7 +3391,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615253}
   m_ExposedName: FlameSeed
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 2
   m_Category: Flame
   m_Min:
     m_Type:
