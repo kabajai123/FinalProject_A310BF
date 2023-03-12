@@ -1,0 +1,352 @@
+fileFormatVersion: 2
+guid: 8505d1e84805ae54fa7347cb97d52120
+timeCreated: 1448649563
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Roof
+    100002: Straw
+    100004: //RootNode
+    100006: Straw Roof
+    100008: Beam
+    100010: beam.000
+    100012: beam.001
+    100014: Bean A
+    100016: Column
+    100018: Column A
+    100020: Column B
+    100022: Floor A
+    100024: Floor B
+    100026: Plane
+    100028: Plane.001
+    100030: Plane.004
+    100032: Plane.005
+    100034: Plane.010
+    100036: Plane.014
+    100038: Plane.015
+    100040: Plane.017
+    100042: Plane.020
+    100044: Plane.073
+    100046: Roof End
+    100048: Roof Top
+    100050: Roof Wall
+    100052: Roof Wall B
+    100054: Roof Wall Window
+    100056: Shoji Door
+    100058: Shoji Window A
+    100060: Shoji Window B
+    100062: Straw End
+    100064: Straw Roof End
+    100066: Straw Roof Top
+    100068: Straw Top
+    100070: Upper Wall A
+    100072: Upper Wall B
+    100074: Upper Wall C
+    100076: Upper Wall D
+    100078: wall 056.005
+    100080: Wall A
+    100082: Wall A.001
+    100084: Wall B
+    100086: wall base.016
+    100088: Wall Window
+    100090: Wall Window B
+    100092: Wall Window B.001
+    100094: Wooden Door A
+    100096: Wooden Door B
+    100098: Wooden Door.001
+    100100: Wooden Foor 1x1
+    100102: Wooden Foor 2x2
+    100104: Wooden Foor 2x2.001
+    100106: Wooden Foor Base
+    100108: Wooden Foor Step
+    100110: Wooden Wall A
+    100112: Wooden Wall B
+    100114: Wooden Wall Door
+    400000: Roof
+    400002: Straw
+    400004: //RootNode
+    400006: Straw Roof
+    400008: Beam
+    400010: beam.000
+    400012: beam.001
+    400014: Bean A
+    400016: Column
+    400018: Column A
+    400020: Column B
+    400022: Floor A
+    400024: Floor B
+    400026: Plane
+    400028: Plane.001
+    400030: Plane.004
+    400032: Plane.005
+    400034: Plane.010
+    400036: Plane.014
+    400038: Plane.015
+    400040: Plane.017
+    400042: Plane.020
+    400044: Plane.073
+    400046: Roof End
+    400048: Roof Top
+    400050: Roof Wall
+    400052: Roof Wall B
+    400054: Roof Wall Window
+    400056: Shoji Door
+    400058: Shoji Window A
+    400060: Shoji Window B
+    400062: Straw End
+    400064: Straw Roof End
+    400066: Straw Roof Top
+    400068: Straw Top
+    400070: Upper Wall A
+    400072: Upper Wall B
+    400074: Upper Wall C
+    400076: Upper Wall D
+    400078: wall 056.005
+    400080: Wall A
+    400082: Wall A.001
+    400084: Wall B
+    400086: wall base.016
+    400088: Wall Window
+    400090: Wall Window B
+    400092: Wall Window B.001
+    400094: Wooden Door A
+    400096: Wooden Door B
+    400098: Wooden Door.001
+    400100: Wooden Foor 1x1
+    400102: Wooden Foor 2x2
+    400104: Wooden Foor 2x2.001
+    400106: Wooden Foor Base
+    400108: Wooden Foor Step
+    400110: Wooden Wall A
+    400112: Wooden Wall B
+    400114: Wooden Wall Door
+    2300000: Roof
+    2300002: Straw
+    2300004: Straw Roof
+    2300006: Beam
+    2300008: beam.000
+    2300010: beam.001
+    2300012: Bean A
+    2300014: Column
+    2300016: Column A
+    2300018: Column B
+    2300020: Floor A
+    2300022: Floor B
+    2300024: Plane
+    2300026: Plane.001
+    2300028: Plane.004
+    2300030: Plane.005
+    2300032: Plane.010
+    2300034: Plane.014
+    2300036: Plane.015
+    2300038: Plane.017
+    2300040: Plane.020
+    2300042: Plane.073
+    2300044: Roof End
+    2300046: Roof Top
+    2300048: Roof Wall
+    2300050: Roof Wall B
+    2300052: Roof Wall Window
+    2300054: Shoji Door
+    2300056: Shoji Window A
+    2300058: Shoji Window B
+    2300060: Straw End
+    2300062: Straw Roof End
+    2300064: Straw Roof Top
+    2300066: Straw Top
+    2300068: Upper Wall A
+    2300070: Upper Wall B
+    2300072: Upper Wall C
+    2300074: Upper Wall D
+    2300076: wall 056.005
+    2300078: Wall A
+    2300080: Wall A.001
+    2300082: Wall B
+    2300084: wall base.016
+    2300086: Wall Window
+    2300088: Wall Window B
+    2300090: Wall Window B.001
+    2300092: Wooden Door A
+    2300094: Wooden Door B
+    2300096: Wooden Door.001
+    2300098: Wooden Foor 1x1
+    2300100: Wooden Foor 2x2
+    2300102: Wooden Foor 2x2.001
+    2300104: Wooden Foor Base
+    2300106: Wooden Foor Step
+    2300108: Wooden Wall A
+    2300110: Wooden Wall B
+    2300112: Wooden Wall Door
+    3300000: Roof
+    3300002: Straw
+    3300004: Straw Roof
+    3300006: Beam
+    3300008: beam.000
+    3300010: beam.001
+    3300012: Bean A
+    3300014: Column
+    3300016: Column A
+    3300018: Column B
+    3300020: Floor A
+    3300022: Floor B
+    3300024: Plane
+    3300026: Plane.001
+    3300028: Plane.004
+    3300030: Plane.005
+    3300032: Plane.010
+    3300034: Plane.014
+    3300036: Plane.015
+    3300038: Plane.017
+    3300040: Plane.020
+    3300042: Plane.073
+    3300044: Roof End
+    3300046: Roof Top
+    3300048: Roof Wall
+    3300050: Roof Wall B
+    3300052: Roof Wall Window
+    3300054: Shoji Door
+    3300056: Shoji Window A
+    3300058: Shoji Window B
+    3300060: Straw End
+    3300062: Straw Roof End
+    3300064: Straw Roof Top
+    3300066: Straw Top
+    3300068: Upper Wall A
+    3300070: Upper Wall B
+    3300072: Upper Wall C
+    3300074: Upper Wall D
+    3300076: wall 056.005
+    3300078: Wall A
+    3300080: Wall A.001
+    3300082: Wall B
+    3300084: wall base.016
+    3300086: Wall Window
+    3300088: Wall Window B
+    3300090: Wall Window B.001
+    3300092: Wooden Door A
+    3300094: Wooden Door B
+    3300096: Wooden Door.001
+    3300098: Wooden Foor 1x1
+    3300100: Wooden Foor 2x2
+    3300102: Wooden Foor 2x2.001
+    3300104: Wooden Foor Base
+    3300106: Wooden Foor Step
+    3300108: Wooden Wall A
+    3300110: Wooden Wall B
+    3300112: Wooden Wall Door
+    4300000: Straw Roof
+    4300002: Roof
+    4300004: Straw
+    4300006: Beam
+    4300008: Bean A
+    4300010: Floor A
+    4300012: Floor B
+    4300014: Column
+    4300016: Column B
+    4300018: Straw Roof End
+    4300020: Straw Roof Top
+    4300022: Wall A.001
+    4300024: Roof End
+    4300026: Roof Top
+    4300028: beam.000
+    4300030: Roof Wall B
+    4300032: Roof Wall Window
+    4300034: Roof Wall
+    4300036: beam.001
+    4300038: Straw End
+    4300040: Plane.020
+    4300042: Straw Top
+    4300044: Column A
+    4300046: Wall Window B
+    4300048: Upper Wall B
+    4300050: Wall B
+    4300052: Wall Window B.001
+    4300054: Wooden Foor 2x2.001
+    4300056: wall 056.005
+    4300058: Wooden Door.001
+    4300060: Upper Wall D
+    4300062: Upper Wall C
+    4300064: Wall Window
+    4300066: Wall A
+    4300068: Wooden Foor 1x1
+    4300070: Wooden Foor Step
+    4300072: Wooden Foor Base
+    4300074: Wooden Foor 2x2
+    4300076: Wooden Wall B
+    4300078: Wooden Wall Door
+    4300080: Shoji Window A
+    4300082: Shoji Window B
+    4300084: Wooden Door B
+    4300086: Wooden Door A
+    4300088: Upper Wall A
+    4300090: Shoji Door
+    4300092: Wooden Wall A
+    4300094: Plane.073
+    4300096: Plane.014
+    4300098: Plane.015
+    4300100: Plane.001
+    4300102: Plane.017
+    4300104: Plane.004
+    4300106: Plane.005
+    4300108: Plane.010
+    4300110: Plane
+    4300112: wall base.016
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
