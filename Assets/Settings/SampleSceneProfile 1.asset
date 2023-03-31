@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4507273603229014446
+--- !u!114 &-8094553224044679999
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,19 +9,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5485954d14dfb9a4c8ead8edb0ded5b1, type: 3}
-  m_Name: LiftGammaGain
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
-  active: 0
-  lift:
+  active: 1
+  postExposure:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.99570394, z: 0.93015003, w: 0}
-  gamma:
-    m_OverrideState: 1
-    m_Value: {x: 0.93461955, y: 1, z: 0.9779619, w: 0}
-  gain:
-    m_OverrideState: 1
-    m_Value: {x: 0.43237448, y: 0, z: 1, w: 0}
+    m_Value: 0.3
+  contrast:
+    m_OverrideState: 0
+    m_Value: 0
+  colorFilter:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 0
+  saturation:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &-4132314643936751536
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -53,9 +59,10 @@ MonoBehaviour:
   components:
   - {fileID: -4132314643936751536}
   - {fileID: 252612949663201543}
-  - {fileID: -4507273603229014446}
   - {fileID: 8299975822717269410}
   - {fileID: 7025655310047722873}
+  - {fileID: -8094553224044679999}
+  - {fileID: 4290142351599265577}
 --- !u!114 &252612949663201543
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -74,16 +81,16 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.4
+    m_Value: 8.61
   scatter:
-    m_OverrideState: 0
-    m_Value: 0.7
+    m_OverrideState: 1
+    m_Value: 0.339
   clamp:
     m_OverrideState: 0
     m_Value: 65472
   tint:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 0.6766028, b: 0.36320752, a: 1}
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
@@ -96,6 +103,22 @@ MonoBehaviour:
     dimension: 1
   dirtIntensity:
     m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &4290142351599265577
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
     m_Value: 0
 --- !u!114 &7025655310047722873
 MonoBehaviour:
@@ -112,10 +135,10 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.99839014, y: 0.99677086, z: 1, w: -0.087783456}
+    m_Value: {x: 0.99839014, y: 0.99677086, z: 1, w: -0.04239768}
   midtones:
-    m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9106144, z: 0.76492894, w: 0}
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 0.9106144, z: 0.76492894, w: 0.015128591}
   highlights:
     m_OverrideState: 0
     m_Value: {x: 1, y: 0.9954343, z: 0.9988604, w: 0}
