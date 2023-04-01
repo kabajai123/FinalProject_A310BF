@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3887931044907132471
+--- !u!114 &-6511336892095634794
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Raining
-  m_Shader: {fileID: -6465566751694194690, guid: b7ed23501fd5a714e8813d4e790a32d7,
+  m_Name: Water
+  m_Shader: {fileID: -6465566751694194690, guid: 6fbb8f31988cfef41a50e925bd891871,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,27 +34,15 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseColor:
-        m_Texture: {fileID: 2800000, guid: c0dc05eebaf1ae142978ea48397f398f, type: 3}
+    - _WaterNormalTexture:
+        m_Texture: {fileID: 2800000, guid: 5b033ed30b58bfe4a93ea7f209c7b29c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _BaseColorTexture:
-        m_Texture: {fileID: 2800000, guid: c0dc05eebaf1ae142978ea48397f398f, type: 3}
+    - _WaterNormalTexture2:
+        m_Texture: {fileID: 2800000, guid: 1d5b0ef847062554d8c3948749d93663, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Normal:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NormalTexture:
-        m_Texture: {fileID: 2800000, guid: 8f90b7509d1efa3469fc9e4b6125b9a0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RippleRain:
-        m_Texture: {fileID: 2800000, guid: 9e11696dd5ae8dd469b51dd3264fe505, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _WaterTexture:
+    - _WaterNormalTexture_2:
         m_Texture: {fileID: 2800000, guid: 1d5b0ef847062554d8c3948749d93663, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -72,28 +60,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 1
-    - _AlphaClip: 0
-    - _DecalMeshBiasType: 0
-    - _DecalMeshDepthBias: 0
-    - _DecalMeshViewBias: 0
-    - _DrawOrder: 0
-    - _NoiseSpeed: 1.5
+    - _Displacement: 0.12
+    - _NormalStrength: 0.6
+    - _NormalStrength_2: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RippleSpeed: 17
-    - _RippleStrength: 0.25
-    - _RippleTiling: 2
-    - _RippleTilingDecresing: 0.92
-    - _RippleTilingOffset: 0.5
-    - _RippleTilingSizeL: 6
-    - _RippleTilingSizeS: 1.5
-    - _Smoothness: 2
-    - _Speed: 17
-    - _Tiling: 1
-    - _WaterSpeed: 0.25
-    - _WaterStrenth: 0.7
-    - _WaterTiling: 2.5
+    - _Smoonthness: 1
+    - _WaterDepth: 1
+    - _WaterNormalMovingSpeed: -10
+    - _WaterNormalMovingSpeed2: -10
+    - _WaterNormalMovingSpeed_2: -10
+    - _WaterStrength: 1.56
+    - _WaterVertexNoise: 50
+    - _WaterVertexSpeed: 50
     m_Colors:
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 0.72606397, g: 0.72606397, b: 0.72606397, a: 1}
+    - _DepthColor: {r: 1, g: 1, b: 1, a: 0.94509804}
+    - _RivenWaterColor: {r: 0.624733, g: 0.8870186, b: 0.9528302, a: 0.7019608}
+    - _WaterNormalTiling: {r: 1, g: 5, b: 0, a: 0}
+    - _WaterNormalTiling2: {r: 5, g: 1, b: 0, a: 0}
+    - _WaterVertexTiling: {r: 5, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
