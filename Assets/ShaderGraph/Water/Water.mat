@@ -67,17 +67,17 @@ Material:
     - _QueueOffset: 0
     - _Smoonthness: 1
     - _WaterDepth: 1
-    - _WaterNormalMovingSpeed: -10
+    - _WaterNormalMovingSpeed: -16
     - _WaterNormalMovingSpeed2: -10
-    - _WaterNormalMovingSpeed_2: -10
+    - _WaterNormalMovingSpeed_2: -8
     - _WaterStrength: 1.56
-    - _WaterVertexNoise: 50
-    - _WaterVertexSpeed: 50
+    - _WaterVertexNoise: 5
+    - _WaterVertexSpeed: 100
     m_Colors:
     - _BaseColor: {r: 0.72606397, g: 0.72606397, b: 0.72606397, a: 1}
     - _DepthColor: {r: 1, g: 1, b: 1, a: 0.94509804}
-    - _RivenWaterColor: {r: 0.624733, g: 0.8870186, b: 0.9528302, a: 0.7019608}
-    - _WaterNormalTiling: {r: 1, g: 5, b: 0, a: 0}
-    - _WaterNormalTiling2: {r: 5, g: 1, b: 0, a: 0}
-    - _WaterVertexTiling: {r: 5, g: 1, b: 0, a: 0}
+    - _RivenWaterColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0.7019608}
+    - _WaterNormalTiling: {r: 2, g: 75, b: 0, a: 0}
+    - _WaterNormalTiling2: {r: 2, g: 50, b: 0, a: 0}
+    - _WaterVertexTiling: {r: 1, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
