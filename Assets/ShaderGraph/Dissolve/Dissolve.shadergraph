@@ -3621,10 +3621,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -124.0,
-            "y": 988.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": -116.00000762939453,
+            "y": 930.0,
+            "width": 148.99989318847657,
+            "height": 34.0
         }
     },
     "m_Slots": [
