@@ -82,10 +82,10 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleSpeed: 17
-    - _RippleStrength: 0.25
+    - _RippleStrength: 0.2
     - _RippleTiling: 2
     - _RippleTilingDecresing: 0.92
-    - _RippleTilingOffset: 0.5
+    - _RippleTilingOffset: 0.6
     - _RippleTilingSizeL: 6
     - _RippleTilingSizeS: 1.5
     - _Smoothness: 2
