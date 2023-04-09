@@ -82,17 +82,17 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleSpeed: 17
-    - _RippleStrength: 0.2
+    - _RippleStrength: 0
     - _RippleTiling: 2
     - _RippleTilingDecresing: 0.92
-    - _RippleTilingOffset: 0.6
+    - _RippleTilingOffset: 0.5
     - _RippleTilingSizeL: 6
     - _RippleTilingSizeS: 1.5
-    - _Smoothness: 2
+    - _Smoothness: 0
     - _Speed: 17
     - _Tiling: 1
-    - _WaterSpeed: 0.25
-    - _WaterStrenth: 0.7
+    - _WaterSpeed: 0
+    - _WaterStrenth: 0
     - _WaterTiling: 2.5
     m_Colors:
     - _Tint: {r: 1, g: 1, b: 1, a: 0}
