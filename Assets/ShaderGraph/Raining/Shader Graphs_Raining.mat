@@ -88,7 +88,7 @@ Material:
     - _RippleTilingOffset: 0.5
     - _RippleTilingSizeL: 6
     - _RippleTilingSizeS: 1.5
-    - _Smoothness: 0
+    - _Smoothness: 1
     - _Speed: 17
     - _Tiling: 1
     - _WaterSpeed: 0
