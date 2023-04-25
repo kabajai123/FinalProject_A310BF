@@ -18,7 +18,7 @@ public class FadeInOut : MonoBehaviour
     {
         timer += 1;
 
-        if(timer > 630)
+        if(timer > 525)
         {
             StartCoroutine(FadeIn(0.2f));
         }

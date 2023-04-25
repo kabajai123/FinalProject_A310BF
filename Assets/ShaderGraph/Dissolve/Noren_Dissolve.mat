@@ -35,11 +35,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseTexture:
-        m_Texture: {fileID: 2800000, guid: d407808ff9471d54fb0c82c7a91652e1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 529e48ba8914ecb41a5be0738308e59d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTexture:
-        m_Texture: {fileID: 2800000, guid: 21f3a140dec940a44b043d6910016f78, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef37e433796915c4fa075f964070f05a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -56,17 +56,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DissolveNoiseScale: 40
+    - _DissolveNoiseScale: 20
     - _DissolveNoiseSize: 30
     - _DissolveScale: 0.01
     - _DissovleAlpha: 0.974
-    - _Height: -0.4
+    - _Height: -3.85
     - _NormalStrength: 0.5
-    - _NosieSrength: 1
+    - _NosieSrength: 2.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Width: 3.3
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
-    - _DissolveColor: {r: 2.670157, g: 0.4101428, b: 0.13854589, a: 0}
+    - _DissolveColor: {r: 16.770506, g: 3.680266, b: 1.1865922, a: 0}
   m_BuildTextureStacks: []
