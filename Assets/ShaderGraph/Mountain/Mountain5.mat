@@ -168,8 +168,8 @@ Material:
     - _Smoothness: 0.4
     - _SmoothnessTextureChannel: 0
     - _Snow_Blend_Sharpness: 10
-    - _Snow_Height_Blend: 180
-    - _Snow_Threshold: 0.9
+    - _Snow_Height_Blend: 230
+    - _Snow_Threshold: 0.95
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
